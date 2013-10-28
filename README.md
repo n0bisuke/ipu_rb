@@ -12,3 +12,4 @@ http://atnd.org/events/44916
 # 参加者
 
 - 小松 一星 (@isseium)
+- 奥津翔太  (@otukutun)
