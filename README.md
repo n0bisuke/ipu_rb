@@ -15,3 +15,4 @@ http://atnd.org/events/44916
 - 奥津翔太  (@otukutun)
 - 星  遼平  (@micky12127)
 - 中島裕聡  (@whitech0c0)
+- 菅原遼介  (@n0bisuke)
