@@ -13,3 +13,4 @@ http://atnd.org/events/44916
 
 - 小松 一星 (@isseium)
 - 奥津翔太  (@otukutun)
+- 星  遼平  (@micky12127)
