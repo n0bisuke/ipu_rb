@@ -1,3 +1,4 @@
+#coding: utf-8
 #!/usr/bin/env ruby
 class User
   attr_accessor :location
@@ -15,7 +16,7 @@ class User
     make_text(10)
   end
   
-#  private
+ #private
   def make_text min_temp
     "明日の最低気温は #{min_temp} 度です"
   end
