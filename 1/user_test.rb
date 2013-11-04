@@ -1,5 +1,11 @@
+require 'simplecov'
 require 'test/unit' 
+
+# カバレッジ測定用
+SimpleCov.start
+
 require './user.rb'
+
 
 class Test_Hoge < Test::Unit::TestCase
   def setup
