@@ -16,3 +16,4 @@ http://atnd.org/events/44916
 - 星  遼平  (@micky12127)
 - 中島裕聡  (@whitech0c0)
 - 菅原遼介  (@n0bisuke)
+- 伊藤貴之  (@iwate_takayu)
