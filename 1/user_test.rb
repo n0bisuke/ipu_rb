@@ -13,8 +13,8 @@ class Test_Hoge < Test::Unit::TestCase
   end
   
   def test_tweet
-    text = @user.make_text(10)
-    assert text == "明日の最低気温は 10 度です", "text"
+    text = @user.make_text(20)
+    assert text == "明日の最低気温は 20 度です", "text"
   end
   
 #  def test_bmi
