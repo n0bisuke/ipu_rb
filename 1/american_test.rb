@@ -8,6 +8,6 @@ class American_Test < Test::Unit::TestCase
 
   def test_make_text
     text = @user.make_text 10
-    assert text == "Minimum temperature for tomorrow is 10 degrees."
+    assert text == "Minimum temperature for tomorrow is 10 degrees"
   end
 end
