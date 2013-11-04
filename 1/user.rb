@@ -14,8 +14,8 @@ class User
     make_text(10)
   end
   
-  #private
-#  def make_text min_temp
-#    "明日の最低気温は #{min_temp} 度です"
-#  end
+ #private
+  def make_text min_temp
+    "明日の最低気温は #{min_temp} 度です"
+  end
 end

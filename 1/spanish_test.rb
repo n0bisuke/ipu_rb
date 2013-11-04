@@ -9,6 +9,6 @@ class Test_Spanish < Test::Unit::TestCase
   
   def test_tweet
     text = @user.make_text(10)
-    assert text = "La temperatura mínima para mañana es de 10 grados."
+    assert text = "La temperatura mínima para mañana es de 10 grados"
   end
 end
