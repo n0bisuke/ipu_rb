@@ -1,15 +1,21 @@
 class User
-  attr_reader :name
-  attr_accessor :height, :weight
+  attr_accessor :location
   
-  def initialize name, height, weight
-    @name = name
-    @height = height
-    @weight = weight
+  def initialize token, secret, location
+    @token = token
+    @secret = secret
+    @location = location
   end
   
+  def tweet
+    # TODO: あとでWeather クラスと結合
+    min_temp = 10
+    
+    make_text(10)
+  end
   
-  def bmi
-    bmi = @weight / ((@height / 100.0) ** 2)
+#  private
+  def make_text min_temp
+    "明日の最低気温は #{min_temp} 度です"
   end
 end

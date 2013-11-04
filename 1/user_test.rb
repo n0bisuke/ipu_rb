@@ -3,13 +3,18 @@ require './user.rb'
 
 class Test_Hoge < Test::Unit::TestCase
   def setup
-    @user = User.new "Taro", 180, 60
+    @user = User.new "token", "secret", "Iwate"
   end
   
-  def test_bmi
-    u = User.new "Taro", 170, 60
-    assert u.bmi().round(1) == 20.8, "BMI is about 20.8"
+  def test_tweet
+    text = @user.make_text(10)
+    assert text == "明日の最低気温は 10 度です", "text"
   end
+  
+#  def test_bmi
+#    u = User.new "Taro", 170, 60
+#    assert u.bmi().round(1) == 20.8, "BMI is about 20.8"
+#  end
 #  
 #  def test_read_height
 #    assert @user.height == 180, "Read Height"
